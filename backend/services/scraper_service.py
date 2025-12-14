@@ -4,7 +4,7 @@ import time
 import random
 import logging
 import datetime
-from .config import CITY_CONFIG, RISK_HIGH, RISK_MEDIUM, USER_AGENTS
+from ..core.config import CITY_CONFIG, RISK_HIGH, RISK_MEDIUM, USER_AGENTS
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
